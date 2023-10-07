@@ -1,0 +1,102 @@
+body{
+    background-color: silver;
+}
+.header{
+    margin: 50px;
+}
+.container-flags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flag{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.flag-color-ukraine{
+    height: 100px;
+}
+.flag-color-ukraine:nth-child(1){
+    background-color: #0057b8;
+}
+.flag-color-ukraine:nth-child(2){
+    background-color: #ffd700;
+}
+
+.flag-color-japan-bg{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.flag-color-japan-center{
+    background-color: #BC002D;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+.flag-color-iceland-bg{
+    position: relative;
+    height: 216px;
+    background-color: #336699;
+}
+
+.flag-color-iceland-bg-crest{
+    background-color: #ffffff;
+    width: 48px;
+    height: 100%;
+    margin-left: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-color-iceland-bg-crest:nth-child(2){
+    position: absolute;
+    background-color: #ffffff;
+    top: calc(50% - 48px/2);
+    width: 100%;
+    height: 48px;
+    margin-left: 0;
+}
+
+.flag-color-iceland-bg-crest-red{
+    position: absolute;
+    z-index: 2;
+    background-color: #dc1e35;
+    width: 24px;
+    height: 100%;
+
+}
+.flag-color-iceland-bg-crest:nth-child(2) .flag-color-iceland-bg-crest-red{
+    background-color: #dc1e35;
+    width: 300px;
+    height: 24px;
+}
+
+
+.czech{
+    height: 200px;
+    position: relative;
+}
+.flag-color-czech{
+    background-color: #fff;
+    height: 50%;
+}
+.flag-color-czech:nth-child(2){
+    background-color: #D7141A;
+}
+.flag-color-czech:nth-child(3){
+    background: none;
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid #11457E;
+
+}
