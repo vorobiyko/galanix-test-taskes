@@ -1,0 +1,51 @@
+.card{
+  width: 100%;
+  position: relative;
+  &:nth-child(4n + 1) &Container{
+    border: 5px solid red;
+  }
+  &Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+    border-radius: 50%;
+    &Img{
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 5px;
+    }
+
+    &:hover{
+      border: 5px solid yellow;
+      rotate: 45deg;
+      transition: rotate 0.3s ease-in-out;
+    }
+
+    &Crest{
+      position: absolute;
+      top: 0;
+      right: 0;
+      &Img{
+        width: 20px;
+        height: auto;
+      }
+    }
+  }
+
+}
+@media screen and (width< 900px) {
+  .card {
+    &:nth-child(2n + 1) &Container {
+      border: 5px solid red;
+    }
+  }
+}
+@media screen and (width< 500px){
+  .card {
+    &:nth-child(1) &Container {
+      border: 5px solid red;
+    }
+  }
+}
