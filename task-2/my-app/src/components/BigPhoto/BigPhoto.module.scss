@@ -1,0 +1,26 @@
+.background{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0,0,0, 0.7);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &Img{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+  }
+  &Btn{
+    border-radius: 5px;
+    border: 2px solid #FF3D00;
+    margin-top: 10px;
+    padding: 2px 5px;
+    cursor: pointer;
+  }
+}
