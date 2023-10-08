@@ -1,6 +1,6 @@
 # galanix-test-taskes
 
-Проект було зроблено на React TS SCSS
+Проект 2 було зроблено на React TS SCSS
 Для запуску проекту проінсталювати залежності з package.json
 "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -20,3 +20,4 @@
 
   "start": "react-scripts start",
 для запуску проекту 
+
